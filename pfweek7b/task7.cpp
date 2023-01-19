@@ -12,11 +12,11 @@ int main()
 }
 void printPercentage(int number)
 {
-    int p1=0;
-    int p2=0;
-    int p3=0;
-    int p4=0;
-    int p5=0;
+    float p1=0;
+    float p2=0;
+    float p3=0;
+    float p4=0;
+    float p5=0;
     int marks;
 
     for (int i = 0; i < number; i++)
@@ -44,9 +44,9 @@ void printPercentage(int number)
             p5++;
         }
     }
-    cout<<"p1: "<<(p1*100)/number<<endl;
-    cout<<"p2: "<<(p2*100)/number<<endl;
-    cout<<"p3: "<<(p3*100)/number<<endl;
-    cout<<"p4: "<<(p4*100)/number<<endl;
-    cout<<"p5: "<<(p5*100)/number<<endl;
+    cout<<"p1: "<<(p1/number)*100<<endl;
+    cout<<"p2: "<<(p2/number)*100<<endl;
+    cout<<"p3: "<<(p3/number)*100<<endl;
+    cout<<"p4: "<<(p4/number)*100<<endl;
+    cout<<"p5: "<<(p5/number)*100<<endl;
 }
